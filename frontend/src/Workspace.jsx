@@ -4,7 +4,7 @@ import { health, scrape, compareCities, forecastMulti, agentPlan, agentExecute }
 import { collectChartsForReport } from "./utils/chartCapture";
 import { buildComparisonReportPayload, buildForecastReportPayload } from "./utils/payloadBuilders";
 import { useAuth } from "./contexts/AuthContext";
-import DataCollectionTab from "./components/data-collection/DataCollectionTab";
+import DataCollectionTab from "./components/common/data-collection/DataCollectionTab";
 import ComparisonTab from "./components/comparison/ComparisonTab";
 import ForecastTab from "./components/forecast/ForecastTab";
 import {

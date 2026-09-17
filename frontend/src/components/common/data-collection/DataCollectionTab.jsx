@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import GlassPanel from '../common/GlassPanel'
-import DarkInputField from '../common/DarkInputField'
-import AuroraButton from '../common/AuroraButton'
-import DataChart from '../charts/DataChart'
-import ValidationModal from '../common/ValidationModal'
+import GlassPanel from '../GlassPanel'
+import DarkInputField from '../DarkInputField'
+import AuroraButton from '../AuroraButton'
+import DataChart from '../../charts/DataChart'
+import ValidationModal from '../ValidationModal'
 
 export default function DataCollectionTab({ city, setCity, days, setDays, doScrape, scrapeLoading, scrapeRes, scrapeChartData, userPlan }) {
   const [showValidationModal, setShowValidationModal] = useState(false)
